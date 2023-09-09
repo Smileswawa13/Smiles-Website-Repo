@@ -1,0 +1,119 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Century Gothic', 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+ 
+}
+
+header img {
+   display: block;
+}
+
+nav {
+    background-color: #5083dc;
+    text-align: center;
+}
+
+nav a {
+    padding: 20px 30px;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: -4px;
+}
+
+nav a:hover {
+    background-color: #f45c50;
+    color:#45acff
+}
+
+.welc {
+    text-align:justify;
+    margin:20px 0;
+}
+
+.welc h1 {
+    text-align: left;
+    margin-top:30px;
+    margin-bottom:25px;
+}
+
+.welc p {
+    margin-bottom:15px;
+    font-size:20px;
+}
+
+/*div.bordertest {
+    border: 1px solid red;
+} for layout*/ 
+
+div.gallery {
+    float:left;
+    margin:4px 3px 15px 4px;
+    padding:5px;
+    border: 1px solid #45acff;
+    width: 250px;
+}
+
+
+div.gallery:hover {
+    border: 1px solid #f45c50;
+}
+  
+div.gallery img {
+    width: 250px;
+    height: 150px;
+}
+  
+div.desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.blocker {
+    clear: both !important
+}
+
+.thnx {
+    text-align:justify;
+    margin:20px 0;
+}
+
+.thnx h2 {
+    text-align: left;
+}
+
+.thnx p {
+    margin-top:15px;
+    margin-bottom:60px;
+
+}
+
+footer {
+    background-color: #f52717;
+    text-align:center;
+    padding:35px 0;
+    color:#ffffff;
+    width:100%;
+}
+
+footer p {
+    margin:0px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .wrapper {
+        width:90%;
+        padding: 0 5%;
+    }
+}
