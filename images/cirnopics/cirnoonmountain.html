@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Moutain Fairy</title>
     <style>
-        body {
-            background-image: url('genskyobackground.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-            background-size: 100% 100%;
-        }
+      body {
+        background-image: url("genskyobackground.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-size: 100% 100%;
+      }
 
-        div.wrapper {
-            width:80%;
-            margin:auto;
-        }
-            	
+      div.wrapper {
+        width: 80%;
+        margin: auto;
+      }
+
+      div.wrapper img {
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        border-radius: 5px;
+        border: 2px solid black;
+      }
+
+      div.desc {
+        margin-top: 15px;
+        font-size: 20px;
+        font-family: "Century Gothic";
+        background-color: #f84d40f5;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 800px) {
         div.wrapper img {
-            width:75%;
-            display: block;
-            margin-left:auto;
-            margin-right: auto;
-            margin-top:30px;
-            border-radius: 5px;
-            border:2px solid black;
-            
+          width: 80%;
+          height: 100%;
+          margin-top: 50px;
         }
-
         div.desc {
-            margin-top:15px;
-            font-size:20px;
-            font-family: 'Century Gothic';
-            background-color: #f84d40f5;
-            padding:10px;
-            border-radius: 5px;
-            text-align:center;
+          font-size: 80%;
         }
-
-        @media screen and (max-width:800px) {
-            div.wrapper img {
-                width:80%;
-                height:100%;
-                margin-top:50px;
-            }
-            div.desc {
-                font-size:80%;
-            }
-        }
-
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="wrapper">
-        <img src="cirnomountain.jpg" alt="cirno on the mountain area" width:100%>
-        <div class="desc">
-            <p>Just cirno wandering around the world, now she is in a majestic place with a great view.
-            </p>
-        </div>
+      <img
+        src="cirnomountain.jpg"
+        alt="cirno on the mountain area"
+        width:100%
+      />
+      <div class="desc">
+        <p>
+          Just cirno wandering around the world, now she is in a majestic place
+          with a great view.
+        </p>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>
